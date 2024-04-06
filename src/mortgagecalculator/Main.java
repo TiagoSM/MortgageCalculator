@@ -1,6 +1,5 @@
 package mortgagecalculator;
 
-import java.util.Arrays;
 import java.util.Scanner;
 // agora preciso fazer o tratamento de erros
 public class Main {
@@ -25,5 +24,6 @@ public class Main {
 		
 		String mortgageResult = String.format("%.2f", mortgage);
 		System.out.print("Mortgage: " + mortgageResult);
+		scanner.close();
 	}
 }
