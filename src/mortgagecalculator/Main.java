@@ -2,7 +2,7 @@ package mortgagecalculator;
 
 import java.util.Arrays;
 import java.util.Scanner;
-
+// agora preciso fazer o tratamento de erros
 public class Main {
 	public static void main (String[] args) {
 		final int MONTHSYEAR = 12;
